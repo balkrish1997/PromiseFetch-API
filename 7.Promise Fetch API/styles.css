@@ -1,0 +1,61 @@
+.container{
+
+    width: 228px;
+    height:350px;
+    border-radius: 7px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s; 
+     
+}
+.main{
+    display: flex;
+    flex-direction: row; 
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    
+}
+.image{
+    box-shadow: 0 0 0 4px #fff;
+    border: none;
+    width: 215px;
+    height: 100px;
+}
+.new
+{ 
+    height: 142px;
+    margin-left: 10px;
+}
+.label{
+   padding-right: 5px;
+   
+}
+.country{ 
+    background-color: green;
+    border-radius: 5px;
+    padding: 0 5px 2px 5px;
+    color: #fff;
+}
+.countryinfo{
+    margin: 15px;
+    text-align: center;
+}
+.imageinfo{
+     width:200px ;
+     height:120px;
+}
+ .infodiv{
+     padding:7px;
+     overflow:hidden;
+ }
+ .title{
+     text-align: left;
+     font-size: 15px;
+     padding-left: 10px;
+     padding-bottom: 5px;
+
+ }
+ .result
+ {
+     color: black;
+     font-weight: bolder;
+ }
